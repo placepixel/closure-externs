@@ -134,6 +134,9 @@ jQuery.popover.prototype.content;
 /** @type {number|{show: number, hide: number}} */
 jQuery.popover.prototype.delay;
 
+/** @type {function} */
+jQuery.popover.prototype.setContent;
+
 /**
  * @param {=(string|jQuery.tooltip.options)} opt_eventOrOptions
  * @return {jQuery}
